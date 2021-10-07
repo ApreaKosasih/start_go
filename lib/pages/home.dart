@@ -1,4 +1,4 @@
-part of 'homelib.dart';
+part of 'home_package.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -12,10 +12,31 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(children: [
+        SingleChildScrollView(
+          child: SafeArea(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 120,
+                ),
+                Text(
+                  'data',
+                  style: body1,
+                ),
+                PrimaryButton(
+                    onPressed: () {},
+                    textButton: 'Submit'.toUpperCase(),
+                    textSize: 14,
+                    buttonColor: maincolor,
+                    textColor: Colors.white)
+              ],
+            ),
+          ),
+        ),
         Container(
+          color: Colors.white,
           height: 120,
           width: MediaQuery.of(context).size.width,
-          color: Colors.red,
           child: Column(
             children: [
               SizedBox(
@@ -29,11 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     fit: BoxFit.fitHeight,
                   ),
                 ),
-              )
-              // Text(
-              //   'This Project Start Here and Succes',
-              //   style: TextStyle(fontFamily: 'Rubik'),
-              // ),
+              ),
             ],
           ),
         ),

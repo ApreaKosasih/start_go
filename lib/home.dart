@@ -15,7 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Center(
           child: Text(
             'This Project Start Here and Succes',
-            style: TextStyle(fontFamily: 'Oxygen'),
+            style: TextStyle(fontFamily: 'Rubik'),
           ),
         ),
       ),

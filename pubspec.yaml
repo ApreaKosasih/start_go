@@ -65,6 +65,11 @@ flutter:
         - asset: fonts/Oxygen-Regular.ttf
         # - asset: fonts/Oxygen-Light.ttf
         #   style: italic
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+        # - asset: fonts/Oxygen-Light.ttf
+        #   style: italic
         
   #
   # For details regarding fonts from package dependencies,

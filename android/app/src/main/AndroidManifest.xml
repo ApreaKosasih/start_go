@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.start_go">
+    package="com.example.apparel">
    <application
-        android:label="start_go"
+        android:label="Polos Apparel"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
